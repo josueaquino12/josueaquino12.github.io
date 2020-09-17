@@ -33,10 +33,10 @@ body{
 }
 
 
+
 .styleForMe1dot0{
   
-    height: 1700px;
-    
+    height: 3000px;
     background-size: cover;
     background-attachment: fixed;
 
@@ -111,3 +111,51 @@ h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: azure;
 }
+
+.h1MediumItem{
+    font-size: 45px;
+}
+
+@media all and (max-width: 800px) {
+
+    
+    .fa-address-book-o{
+        font-size: 30px !important;
+    }
+    
+    .tMedium{
+        font-size: 30px;
+    }
+
+
+    .styleForMe{
+  
+        height: 1300px;
+        background-attachment: fixed;
+        background-size: cover;
+    
+    }
+
+    .fa-graduation-cap{
+        font-size: 30px !important;
+    }
+    
+    .fa-pencil{
+        font-size: 30px !important;
+    }
+
+.h1MediumItem{
+    font-size: 30px;
+}
+
+.styleForMe1dot0{
+  
+    height: 7650px;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+    
+  }

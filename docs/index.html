@@ -19,55 +19,65 @@
 <body>
     
 <!-------------------------Comienzo del navbar de navegacion------------------------->
-    <nav id="menu" class="navbar navbar-expand-lg  navbar-dark fixed-top">
-        <a class="navbar-brand  d-lg-none" href="index.html"> 
-          <img src="img/logo.png" alt="" width="250px" height="100px"></a>
-        <button class="navbar-toggler " type="button" data-toggle="collapse" 
-         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
-         aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#forMe">Acerca de Mi</a>
-            </li>
-          </ul>
+    <div id="menu" class="container fluid fixed-top">
 
-          <a class="navbar-brand d-none d-lg-block text-center" href="index.html">
-            <img src="img/logo.png" alt="" width="250px" height="100px">
-          </a>
-
-          <ul class="navbar-nav ml-auto">  
-            <li class="nav-item">
-              <a class="nav-link" href="#formation">Formación</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Hobbies</a>
-            </li>
-          </ul>
+        <nav  class="navbar navbar-expand-lg navbar-dark">
+           <!----a class="navbar-brand  d-lg-none" href="index.html"----> 
+           <a class="navbar-brand d-none d-sm-block " href="index.html"> 
+              <img src="img/logo1.png" alt="" width="100px" height="100px"></a>
+            <button class="navbar-toggler " type="button" data-toggle="collapse" 
+             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+             aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand d-sm-none m-auto" href="index.html">
+              <img src="img/logo1.png" alt="" width="100px" height="100px">
+            </a>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#forMe">Acerca de Mi</a>
+                </li>
+              
     
+              <!---a class="navbar-brand d-none d-lg-block text-center" href="index.html">
+                <img src="img/logo.png" alt="" width="250px" height="100px">
+              </a----->
+              <!---ul class="navbar-nav ml-auto"--->  
+            
+                <li class="nav-item">
+                  <a class="nav-link" href="#formation">Formación</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Hobbies</a>
+                </li>
+              </ul>
+
+              
+            
+        
         </nav>
+
+    </div>
 <!-------------------------Container, imagen de fondo presentacion------------------------->
         <div class="container-fluid styleImage d-flex flex-column 
-        justify-content-center item align-items-center img-fluid" alt="Responsive image">
+        justify-content-center item align-items-center" alt="Responsive image">
          
             
-            <div>
               
-              <h1 class="display-4 text-center textoPresentacion">
+              <h1 class="display text-center textoPresentacion">
               <strong>BIENVENIDOS AL PORTAFOLIO DE <strong style="color: blue;">JOSUÉ</strong> 
               <strong style="color: yellow;">AQUINO</strong></strong></h1>
   
-            </div>
+          
   
 
-            <div class="card ">
+            <div class="card">
 
               <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -124,12 +134,12 @@
    <!-------------------------Secciones - Acerca de Mi-------------------------->       
         
 
-   <div id="forMe" class="col-md-12 styleForMe2 d-flex justify-content-around
+   <div id="forMe" class="col-sm-12 styleForMe2 d-flex justify-content-around
    item align-items-center" >
    
    <div><i class="fa fa-address-book-o" aria-hidden="true" style="color: green;"></i></div>
    <div class="badge badge-success text-wrap">
-    <h1><b>Acerca de mi</b></h1>
+    <h1 class="tMedium"><b>Acerca de mi</b></h1>
   </div> 
      <div><i class="fa fa-address-book-o" aria-hidden="true" style="color: green;"></i></div>
    </div>
@@ -176,7 +186,7 @@
   
   <div><i class="fa fa-graduation-cap" aria-hidden="true" style="color: green;"></i></div>
   <div class="badge badge-success text-wrap">
-    <h1 > <b>Formación</b></h1>
+    <h1 class="tMedium" > <b>Formación</b></h1>
   </div> 
     <div><i class="fa fa-pencil" aria-hidden="true" style="color: green;"></i></div>
   </div>
@@ -214,7 +224,7 @@
 
 
   <div class="col-md-12 mb-4">
-    <h1 class="badge badge-success text-wrap" style="font-size: 45px;">DESARROLLO WEB:</h1>
+    <h1 class="badge badge-success text-wrap h1MediumItem">DESARROLLO WEB:</h1>
   </div>
 
        <!---------------------cardsgroup1------------------------>
@@ -323,7 +333,84 @@
     <h1 class="badge badge-success text-wrap" style="font-size: 45px;">BASE DE DATOS:</h1>
   </div>
 
+ <!---------------------cardsgroup3------------------------>
+ <div class="col-md-12">
+  <div class="card-group">
+    
+    <div class="card">
+      <img src="logos/sql-server-logo-300x242.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-center text-white">
+          <b>SQL SERVER</b></h5>
+        <p class="card-text text-white text-center" style="text-transform: uppercase;"><b>
+          Es un sistema de gestión de base de datos relacional,
+           desarrollado por la empresa Microsoft, utilizado para manipular 
+           y recuperar datos, crear tablas y definir relaciones.
+        </b></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="logos/logo-postgresql-700x500.png" class="card-img-top imgAPI" alt="...">
+      <div class="card-body cbodyAPI">
+        <h5 class="card-title text-center text-white"><b>POSTGRESQL</b></h5>
+         <p class="card-text text-white text-center" style="text-transform: uppercase;"><b>
+          Es un sistema de gestión de bases de datos relacional orientado a objetos 
+          y de código abierto.
+            </b></p>
+      </div>
+    </div>
+    
 
+    
+
+
+
+  </div>
+</div>
+
+<div class="col-md-12 mb-4 mt-4">
+  <h1 class="badge badge-success text-wrap" style="font-size: 45px;">OTROS LENGUAJES:</h1>
+</div>
+<!---------------------cardsgroup4------------------------>
+<div class="col-md-12">
+  <div class="card-group">
+    
+    <div class="card">
+      <img src="logos/java-logo1-1.png" class="card-img-top imgBOOT"  alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-center text-white" >
+          <b>JAVA</b></h5>
+        <p class="card-text text-white text-center"style="text-transform: uppercase;"><b>
+          Es un sistema de gestión de base de datos relacional,
+           desarrollado por la empresa Microsoft, utilizado para manipular 
+           y recuperar datos, crear tablas y definir relaciones.
+        </b></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="logos/Csharp_Logo.png" class="card-img-top " alt="...">
+      <div class="card-body cbodyAPI">
+        <h5 class="card-title text-center text-white"><b>C#</b></h5>
+         <p class="card-text text-white text-center" style="text-transform: uppercase;"><b>
+          Es un sistema de gestión de bases de datos relacional orientado a objetos 
+          y de código abierto.
+            </b></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="logos/1200px-UML_logo.svg.png" class="card-img-top " alt="...">
+      <div class="card-body cbodyAPI">
+        <h5 class="card-title text-center text-white"><b>UML</b></h5>
+         <p class="card-text text-white text-center" style="text-transform: uppercase;"><b>
+          Es el lenguaje de modelado de sistemas de software más conocido y 
+          utilizado en la actualidad. Es un lenguaje gráfico para visualizar, 
+          especificar, construir y documentar un sistema.
+            </b></p>
+      </div>
+    </div>
+
+  </div>
+</div>
 
 
 
