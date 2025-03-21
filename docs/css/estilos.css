@@ -1,17 +1,5 @@
-.imgPortada{
-    background-image: url("../assets/img/color-2174043.png");
-}
+.text-initial-title{
+    font-size: 500%;
+    /*font-family: 'Acme', sans-serif;*/
 
-.navbar-nav .nav-link {
-    
-    color: white;
-    transition: color 1s;
-  
-}
-
-.nav-link:hover{
-   
-    color: orangered !important;
-    text-decoration: 5px overline yellow;
-   
 }
